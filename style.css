@@ -1,0 +1,77 @@
+body {
+ background-color: #ECE9EB;
+font-family: helvetica;
+color: #706c61;
+font-size: 20px;
+line-height: 50px;
+text-align: justify;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 25px;
+}
+
+#profil_picture {
+  margin: 10px;
+  border-radius: 100px;
+  border: 1px solid black;
+  box-shadow: 10px 5px 5px grey;
+}
+
+.btn_social_media {
+  border-radius: 10px;
+  padding: 20px;
+  height: 100px;
+  width: 100px;
+}
+
+.btn_social_media:hover {
+  color: #ffe8d6;
+  opacity : 0.5;
+
+}
+
+.contenu_photo{
+padding: 40px 70px;
+background-color: #f9f6f7;
+margin: 40px 40px;
+border-radius: 10px;
+line-height: 20px;
+}
+
+.presentation{
+padding: 40px 70px;
+background-color: #f9f6f7;
+margin: 40px 40px;
+border-radius: 10px;
+
+}
+.contact{
+padding: 40px 70px;
+background-color: #f9f6f7;
+margin: 40px 40px;
+border-radius: 10px;
+line-height: 10px;
+}
+
+@media (max-width: 720px) {
+  .contenu_photo {
+    width: 500px;
+  }
+}
+@media (max-width: 720px) {
+  .presentation {
+    width: 500px;
+  }
+}
+@media (max-width: 720px) {
+  .contact {
+    width: 500px;
+  }
+}
